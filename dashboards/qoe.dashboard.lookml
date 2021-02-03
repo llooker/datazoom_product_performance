@@ -981,7 +981,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: datazoom_engineering
+    model: datazoom_product_performance
     explore: datazoom_raw
     listens_to_filters: []
     field: datazoom_raw.country
@@ -994,7 +994,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: datazoom_engineering
+    model: datazoom_product_performance
     explore: datazoom_raw
     listens_to_filters: []
     field: datazoom_raw.os

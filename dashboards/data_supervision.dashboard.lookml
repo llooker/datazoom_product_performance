@@ -516,7 +516,7 @@
     ui_config:
       type: checkboxes
       display: popover
-    model: datazoom_engineering
+    model: datazoom_product_performance
     explore: views_with_playback_start
     listens_to_filters: []
     field: datazoom_raw.os
@@ -529,7 +529,7 @@
     ui_config:
       type: tag_list
       display: popover
-    model: datazoom_engineering
+    model: datazoom_product_performance
     explore: views_with_playback_start
     listens_to_filters: []
     field: datazoom_raw.dz_sdk_version
@@ -542,7 +542,7 @@
     ui_config:
       type: tag_list
       display: popover
-    model: datazoom_engineering
+    model: datazoom_product_performance
     explore: views_with_playback_start
     listens_to_filters: []
     field: datazoom_raw.browser

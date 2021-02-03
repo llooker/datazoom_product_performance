@@ -7,12 +7,12 @@ include: "/views/**/*.view"
 include: "/dashboards/**/*.dashboard"
 
 
-datagroup: datazoom_engineering_default_datagroup {
+datagroup: datazoom_product_performance_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-persist_with: datazoom_engineering_default_datagroup
+persist_with: datazoom_product_performance_default_datagroup
 
 explore: datazoom_raw {}
 
