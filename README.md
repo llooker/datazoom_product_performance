@@ -112,7 +112,9 @@ TTFF - Time to first frame. How long it takes to start video playback. Ideally t
 
 ## Data Supervision Dashboard
 #### Used by Data Engineers
-##### Requires `views_with_adbreak_end` and `views_with_playback_start` and `views_with_play_request` and `views_with_adbreakstart` derived tables
+##### Requires `views_with_adbreak_end` and `views_with_playback_start` and `views_with_play_request` and
+
+`views_with_adbreak_start` derived tables
 
 Use this dashboard to identify missing events and data inconsistencies.
 
